@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet;
+text-decoration: underline;
+text-align: center;
+}
+li{font-family: Arial, Helvetica, sans-serif; /*familia de fontes , 
+    é bom colocar mais de um tipo de fonte para o sistema substituir caso necessário*/ 
+font-size: 18px;}
+p{font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;}

@@ -1,0 +1,19 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+.titulo{color: green}/*cor da fonte*/
+#priemiroParagrafo{background-color: yellow;
+    font-family: 'Mochiy Pop One', sans-serif;}
+
+.paragrafo{background-color: aqua;}
+p{background-color: orange; color: black;/*fundo da fonte*/
+font-weight: bold;/*peso da fonte*/
+font-size: 20px;} /*tamanho da fonte*/
+/*letter-spacing:!15px*/ /* espaçamento das letras*/
+/*word-spacing:!15px*/ /* espaçamento das palavras*/
+/*text-decoration:underline*/ /* decoração das fontes*/
+/*text-transforfation: uppercase/ /* latera a escrita das letras, maiuscula, minuscula etc*/
+/*text-align: center/ /* alinhamento de texto*/
+/*line-height:50px/ /* altura da linha */
+/*text-shadow:0px 0px 10px #000000/ /* sombra para o texto */
