@@ -1,0 +1,35 @@
+.img-fisica
+{
+    max-width: 600px;
+    min-width: 300px;
+    width: 200px;
+
+    max-width: 600px;
+    min-height: 300px;
+    height: 200px;
+    
+   /* border-width: 2px;
+    border-color:orange;
+    border-style: solid;*/
+
+    border: 2px solid orange;  /* podemos fazer esse comando em uma linha só, contudo deve seguir a sequencia tamanho estilo e cor*/
+
+   /* border-top-left-radius: 50px;*/
+   border-radius: 10px 100px;}
+
+   /* border: radius 10px; para arredondar a borda*/
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+}

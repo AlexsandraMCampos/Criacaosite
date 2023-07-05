@@ -8,3 +8,8 @@ li{font-family: Arial, Helvetica, sans-serif; /*familia de fontes ,
 font-size: 18px;}
 p{font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;}
+
+
+img{
+    box-shadow: 0cap;
+}
