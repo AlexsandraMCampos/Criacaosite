@@ -1,0 +1,57 @@
+html {
+
+    background-color: #0e0e0e;
+
+}
+
+form {
+
+    width: 600px;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 50px auto;
+    background-color: #fefefe;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+label{
+
+font-size: 18px;
+font-weight: bold;
+width: 220px;
+
+}
+
+input{
+
+
+    padding:10px 15px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+    width: 200px;
+    margin-bottom: 20px; /* distanciamento do botão com a caixa */
+
+}
+
+button{
+
+    /* espa;amento do botao */
+padding:10px 20px;
+width: 100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+border-radius: 15px;
+border: none;
+background-color: #421ced;
+color: #fefefe;
+
+
+
+
+
+}

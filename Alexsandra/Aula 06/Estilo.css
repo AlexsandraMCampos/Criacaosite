@@ -1,0 +1,37 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   justify-content: space-evenly;
+
+   border: 1px solid black;
+
+}
+
+
+
+.div1{
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+
+}
+
+.div2{
+
+width: 300px;
+height: 300px;
+background-color: green;
+    
+}
+.div3{
+
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+
+}
