@@ -1,0 +1,23 @@
+.medidasAbsolutas{
+width: 150px;
+height: 150px;
+background-color: lightblue;
+
+}
+
+h1{
+    color: gray;
+    font-size: 30px;
+}
+
+h2{
+    color: gray;
+    font-size: 2rem;
+
+}
+.medidasRelativas{
+    width: 30vw;
+    height: 30vh;
+    background-color: lightpink;
+
+}

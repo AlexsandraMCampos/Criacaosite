@@ -1,0 +1,39 @@
+html{
+    /* essa é a latura da minha página, escolhi esse valor para informar que os botões estão 
+    estaticos */
+    height: 3000px;
+}
+
+div{
+    padding: 50px;
+    width: 300px;
+}
+.div1{
+    position: static;
+    background-color: lightpink;
+
+}
+.div2{
+  
+background-color: lightskyblue;
+}
+
+.div3{
+    /* essa posição seria interessante para um botão de chat */
+   /*  position: fixed;
+    right: 20px;
+    bottom: 20px; */
+    background-color: lightgoldenrodyellow;
+
+}
+.div4{
+    background-color:blueviolet;
+    width: 600px;
+
+
+}
+.div5{
+
+    width: 100px;
+    background-color: aquamarine;
+}
