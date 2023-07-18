@@ -4,41 +4,46 @@
 
 /* o * é uma indicção para todo o site receba a propriedade que eu determino */
 
-*{
+* {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /* para que a margem seja respeitada */
-    font-family:'Raleway', sans-serif;
+    box-sizing: border-box;
+    /* para que a margem seja respeitada */
+    font-family: 'Raleway', sans-serif;
 
 }
 
 /*Definir propriedades globais*/
 
-html{
+html {
     background-color: #fbfbfb;
 }
 
-.logomarca{
+.logomarca {
     width: 12vw;
 }
 
-.titulo{
+.titulo {
     font-size: 48px;
     font-weight: 700;
-    line-height: 4rem;/* tamanho da linha */
+    line-height: 4rem;
+    /* tamanho da linha */
     color: #33303e;
 
 }
-.descricao{
+
+.descricao {
     font-size: 24px;
     font-weight: 500;
-    line-height: 2,5rem;/* tamanho da linha */
+    line-height: 2, 5rem;
+    /* tamanho da linha */
     color: #4e4b59;
 
 }
+
 /* menu */
-.menu{
- 
+.menu {
+
     width: 85%;
     margin: 0 auto;
 
@@ -48,50 +53,59 @@ html{
     justify-content: space-between;
 }
 
-.cabecalho{
-    padding:32px 0px; 
+.cabecalho {
+    padding: 32px 0px;
     box-shadow: 0px 1px 10px #0000001a;
-/*    background-color: red; */ /* cor vermelha que tinhamos colocado
+    /*    background-color: red; */
+    /* cor vermelha que tinhamos colocado
  no cabeçalho */
 }
 
-.links-navegacao{
-    list-style-type: none;       
+.links-navegacao {
+    list-style-type: none;
 
     display: flex;
     flex-direction: row;
 }
 
-.links-navegacao li a{
+.links-navegacao li a {
     padding: 16px;
-    font-size: 1.4rem; /* equivale a 20px */
+    font-size: 1.4rem;
+    /* equivale a 20px */
     font-weight: 600;
     color: #4e4b59;
     text-decoration: none;
-    
+
 }
-li.registrar a{
+
+li.registrar a {
     color: #ff6e22;
 
 }
+
 /* efeito hover para quando passamos o mouse */
-li.registrar a:hover{
-   font-size: 1.5rem;
-   padding: 10px 13px; /* altura e largura do passing (margem) */
-   transition:0.5s ease; /* tempo para que o efeito aconteça */
+li.registrar a:hover {
+    font-size: 1.5rem;
+    padding: 10px 13px;
+    /* altura e largura do passing (margem) */
+    transition: 0.5s ease;
+    /* tempo para que o efeito aconteça */
 
 }
 
 /*corpo principal*/
-.corpo{
+.corpo {
     padding-top: 48px;
-    padding-bottom: 48px; /* colocar uma distancia da imagem para o cabeçalho */
+    padding-bottom: 48px;
+    /* colocar uma distancia da imagem para o cabeçalho */
 }
 
-.painel-principal{
+.painel-principal {
     width: 85%;
-    margin:0 auto;/* zerando a margem de cima e de baixo */
-    margin-bottom: 128px; /* forçando um novo valor para o bottom */
+    margin: 0 auto;
+    /* zerando a margem de cima e de baixo */
+    margin-bottom: 128px;
+    /* forçando um novo valor para o bottom */
 
     display: flex;
     flex-direction: row;
@@ -99,7 +113,8 @@ li.registrar a:hover{
     justify-content: space-between;
 
 }
-.anuncio-petz{
+
+.anuncio-petz {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -108,116 +123,465 @@ li.registrar a:hover{
 
 }
 
-.botao-principal{
+.botao-principal {
     font-size: 19px;
     font-family: 'Mochiy Pop One', sans-serif;
-    padding: 16px 32px;/* altura (top e bottom) e largura, isso simplifica colocar distanciao do topo e da base (right e left) e das laterais */
+    padding: 16px 32px;
+    /* altura (top e bottom) e largura, isso simplifica colocar distanciao do topo e da base (right e left) e das laterais */
     background-color: #ff950d;
     color: #f5f5f5;
-    border: 1px solid #f5f5f5;    /* espessura da borda */
-    border-radius: 10px; /* borda arredondada */
+    border: 1px solid #f5f5f5;
+    /* espessura da borda */
+    border-radius: 10px;
+    /* borda arredondada */
+    cursor: pointer;
 }
 
-.imagens-petz{
+.imagens-petz {
 
     display: flex;
     flex-direction: row;
-    gap: 30px; /* espaçamento entre as imagens */
+    gap: 30px;
+    /* espaçamento entre as imagens */
 
 
 }
-.fotos-da-esquerda,.fotos-da-direita{ /* coloquei as duas fotos para que elas ficassem totalmente alinhadas */
+
+.fotos-da-esquerda,
+.fotos-da-direita {
+    /* coloquei as duas fotos para que elas ficassem totalmente alinhadas */
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* colocar as fotos com mesmo alinhamento */
+    justify-content: space-between;
+    /* colocar as fotos com mesmo alinhamento */
 }
 
 
-.fotos-da-esquerda img{
-width: 10vw; /* foto com 10% da largura da tela */
-border-radius: 8px;
-}
-
-.fotos-da-direita img{
-    width: 22vw; /* foto com 22% da largura da tela */
+.fotos-da-esquerda img {
+    width: 10vw;
+    /* foto com 10% da largura da tela */
     border-radius: 8px;
+}
+
+.fotos-da-direita img {
+    width: 22vw;
+    /* foto com 22% da largura da tela */
+    border-radius: 8px;
+}
+
+/* seção de perfil */
+.tipos-perfil {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #ff880026;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tipos-perfil h2 {
+
+    width: 52%;
+    text-align: center;
+
+}
+
+.cards-container {
+
+    width: 70%;
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card-de-perfil {
+
+    width: 28vw;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+    box-shadow: 2px 2px 15px #4e4d5926;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.card-de-perfil img {
+
+    width: 16vw;
+
+}
+
+.conteudo-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.link-card {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 16px;
+
+    color: #0088ae;
+
+}
+
+.link-roxo {
+    color: #a944ff;
+
+}
+
+/* seção dos pilares */
+
+.valores-da-plataforma {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sobre-os-valores {
+    width: 50%;
+}
+
+.sobre-os-valores p {
+    margin-top: 30px;
+}
+
+.valores-topicos {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.coluna-valores {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pilar {
+    margin: 32px;
+    text-align: center;
+
+}
+
+.pilar p {
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+
+.box-pilar {
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 10px;
+    color: #f5f5f5;
+    box-shadow: 0px 4px 15px #00000033;
+
+}
+
+span.laranja {
+    background-color: #ff8800;
+}
+
+span.roxo {
+    background-color: #a944ff;
+}
+
+span.azul {
+    background-color: #0088ae;
+}
+
+/* rodape */
+.rodape {
+    background-color: #0088ae;
+
+}
+
+.conteudo-rodape {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 8px;
+    /* espaço dos elementos dentro do display flex */
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+
+.copyright {
+    text-align: center;
+    color: #f5f5f5;
+    padding-bottom: 16px;
+
+}
+
+/* definindo o comportamento das telas */
+@media (max-width:1024px) {
+    .logomarca {
+        width: 15vw;
     }
 
-    /* seção de perfil */
-    .tipos-perfil{
-        padding-top: 48px;
-        padding-bottom: 48px;
-        background-color: #ff880026;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+    .titulo {
+        font-size: 35px;
+        line-height: 3rem;
     }
 
-    .tipos-perfil h2{
-
-        width: 52%;
-        text-align: center;
+    .descricao {
+        font-size: 20px;
+        line-height: 2rem;
+        /* tamanho da linha */
 
     }
 
-    .cards-container{
+    .links-navegacao li a {
+
+        font-size: 1.2rem;
+
+    }
+
+    li.registrar a:hover {
+        font-size: 1.3rem;
+
+    }
+
+    /* seção primaria */
+    .botao-principal {
+        font-size: 16px;
+
+    }
+
+    .imagens-petz {
+        gap: 15px;
+        /* espaçamento entre as imagens */
+
+    }
+
+    .fotos-da-esquerda img {
+        width: 12vw;
+    }
+
+    .fotos-da-direita img {
+        width: 24vw;
+    }
+
+    /* seção secundária */
+
+    .tipos-perfil h2 {
 
         width: 70%;
-        margin-top: 48px;
+    }
 
+    .cards-container {
+
+        width: 80%;
+
+    }
+
+    .card-de-perfil {
+        width: 34vw;
+    }
+
+    /* seção dos pilares */
+
+    .valores-da-plataforma {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        align-items: center;
+    }
 
+    .sobre-os-valores {
+        width: 80%;
+        text-align: center;
+    }
+
+    .valores-topicos {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:768px){
+    .logomarca{
+        width: 20vw;
+            }
+            .titulo {
+                font-size: 40px;
+                line-height: 3.4rem;
+            }
+        
+            .descricao {
+                font-size: 18px;
+                line-height: 1.8rem;
+                /* tamanho da linha */
+        
+
+}
+
+.painel-principal {
+ 
+    margin-bottom: 80px;
+    /* forçando um novo valor para o bottom */
+
+    gap:30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.anuncio-petz {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.botao-principal {
+    font-size: 18px;
+    padding: 13px 30px;
+  }
+
+  .fotos-da-esquerda img {
+    width: 16vw;
+ 
+}
+
+.fotos-da-direita img {
+    width: 40vw;
+   
+}
+
+}
+@media (max-width:700px){
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.card-de-perfil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.card-de-perfil img{
+    width: 20vw;
+
+}
+.conteudo-card{
+    width: 65%;
+
+}
+
+
+}
+@media (max-width:500px){
+
+    .logomarca{
+        width:25vw;
+
+    }
+    .titulo{
+        font-size: 24px;
+        line-height: 2.5rem;
+    }
+    .descricao{
+        font-size: 16px;
+    }
+    /* seção primária */
+
+    .anuncio-petz{
+        width:80%;
+        gap: 15px;
+    }
+
+    .botao-principal{
+        font-size: 15px;
+        padding: 13px 30px;
+    }
+    /* seção secundária */
+
+    .tipos-perfil h2 {
+        width: 85%;
+    }
+    .cards-container{
+        margin-top: 30px;
+        gap: 20px;
     }
 
     .card-de-perfil{
+padding: 20px;
 
-        width: 28vw;
-        padding: 32px;
-        border-radius: 10px;
-        background-color: #fbfbfb;
-        box-shadow: 2px 2px 15px #4e4d5926;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-
-
+align-items: center;
 
     }
-    .card-de-perfil img{
-
-        width: 16vw;
-
-    }
-
     .conteudo-card{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-
-
+        width:100%;
 
     }
+.link-card{
+    font-size: 16px;
+    
+}
+/* seção de valores */
+.sobre-os-valores{
+    width:95%;
 
-    .link-card{
-        font-size: 22px;
-        font-weight: 600;
-        text-decoration: underline;
-        margin-top: 16px;
+}
+.pilar{
+    margin: 16px;
+}
 
-        color: #0088ae;
+/* rodapé */
+.conteudo-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
-    }
+}
+}
 
-    .link-roxo{
-        color:#a944ff;
 
-    }
