@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Montserrat-VariableFont;
+    src: url("./Fontes/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html {
+    background-color: #fbfbfb;
+}
+
+.logomarca {
+
+    width: 231px;
+    height: 120px;
+    flex-shrink: 0;
+
+}
+
+.menu {
+    width: 85%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho {
+
+    width: 100vw;
+    /* 100 vw indica a totalidade da largura da tela, seja ela qual for */
+    height: 120px;
+    background: #099BB3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.links-navegacao {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.links-navegacao li a {
+
+    padding: 16px;
+    text-decoration: none;
+    color: #FFE61A;
+    font-family: Montserrat-VariableFont;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 22px */
+    letter-spacing: -0.22px;
+
+}
+
+.botao {
+
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FF0079;
+
+    color: #FFE61A;
+    font-family: Montserrat-VariableFont;
+    font-size: 20px;
+    font-style: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    /* coloquei o botaão em display para poder alinhar as coisas dentro */
+    justify-content: center;
+    /* traz os itens para o centro mas no topo */
+    align-items: center;
+    /* traz os itens do topo para o centro do botão */
+    gap: 10px;
+
+}
+
+/* corpo principal */
+
+.painel-principal {
+    color: #000;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.titulo {
+
+    font-family: Montserrat-VariableFont;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #5F5C6B;
+    margin-top: 117px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.primeira-div {
+
+    width: 85%;
+    margin: 0 auto;
+    /* padding: 16px 32px; */
+
+    /*    background-color: aqua; */
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.descricao {
+    font-family: Montserrat-VariableFont;
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.2px;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+}
+
+.imagem-cachorro {
+    display: flex;
+    flex-direction: row;
+    /*    justify-content: space-between; */
+    /*     align-items: center; */
+
+}
+
+/* seção secundária */
+
+.secundaria {
+    width: 100%;
+    background: #F1F0F5;
+
+}
+
+.carrossel {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.carrossel img {
+    width: 200px;
+}
+
+/* seção terciaria */
+
+.terciaria {
+    background: #FBFBFB;
+    width: 100%;
+
+}
+
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+
+}
+
+.variedades button {
+
+    color: #FFE61A;
+    text-align: center;
+
+    font-family: Montserrat-VariableFont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #FF0079;
+    border: none;
+    border-radius: 8px;
+    width: 280px;
+    height: 59px;
+
+
+}
+
+.titulos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.titulos h1 {
+    color: #5F5C6B;
+    text-align: center;
+    font-family: Montserrat-VariableFont;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.titulos div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+
+}
+
+/* rodape */
+
+.rodape {
+    margin-top: 49px;
+    width: 100%;
+    background: #E1E0E7;
+    padding-top: 20px;
+}
+
+.rodape .secao-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rodape p{
+    font-family: Montserrat-VariableFont;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #5F5C6B;
+       
+}
+
+.redes-sociais img{
+    margin-top:10px;
+    margin-right:45px;
+
+}
+    
+

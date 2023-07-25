@@ -126,7 +126,7 @@ li.registrar a:hover {
 .botao-principal {
     font-size: 19px;
     font-family: 'Mochiy Pop One', sans-serif;
-    padding: 16px 32px;
+    /*  padding: 16px 32px; */
     /* altura (top e bottom) e largura, isso simplifica colocar distanciao do topo e da base (right e left) e das laterais */
     background-color: #ff950d;
     color: #f5f5f5;
@@ -442,146 +442,161 @@ span.azul {
     }
 }
 
-@media (max-width:768px){
-    .logomarca{
+@media (max-width:768px) {
+    .logomarca {
         width: 20vw;
-            }
-            .titulo {
-                font-size: 40px;
-                line-height: 3.4rem;
-            }
-        
-            .descricao {
-                font-size: 18px;
-                line-height: 1.8rem;
-                /* tamanho da linha */
-        
+    }
 
-}
+    .titulo {
+        font-size: 40px;
+        line-height: 3.4rem;
+    }
 
-.painel-principal {
- 
-    margin-bottom: 80px;
-    /* forçando um novo valor para o bottom */
+    .descricao {
+        font-size: 18px;
+        line-height: 1.8rem;
+        /* tamanho da linha */
 
-    gap:30px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: space-between;
-}
-.anuncio-petz {
-    width: 80%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-}
-.botao-principal {
-    font-size: 18px;
-    padding: 13px 30px;
-  }
-
-  .fotos-da-esquerda img {
-    width: 16vw;
- 
-}
-
-.fotos-da-direita img {
-    width: 40vw;
-   
-}
-
-}
-@media (max-width:700px){
-.cards-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-}
-.card-de-perfil{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.card-de-perfil img{
-    width: 20vw;
-
-}
-.conteudo-card{
-    width: 65%;
-
-}
-
-
-}
-@media (max-width:500px){
-
-    .logomarca{
-        width:25vw;
 
     }
-    .titulo{
+
+    .painel-principal {
+
+        margin-bottom: 80px;
+        /* forçando um novo valor para o bottom */
+
+        gap: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .anuncio-petz {
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .botao-principal {
+        font-size: 18px;
+        padding: 13px 30px;
+    }
+
+    .fotos-da-esquerda img {
+        width: 16vw;
+
+    }
+
+    .fotos-da-direita img {
+        width: 40vw;
+
+    }
+
+}
+
+@media (max-width:700px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-de-perfil {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .card-de-perfil img {
+        width: 20vw;
+
+    }
+
+    .conteudo-card {
+        width: 65%;
+
+    }
+
+
+}
+
+@media (max-width:500px) {
+
+    .logomarca {
+        width: 25vw;
+
+    }
+
+    .titulo {
         font-size: 24px;
         line-height: 2.5rem;
     }
-    .descricao{
+
+    .descricao {
         font-size: 16px;
     }
+
     /* seção primária */
 
-    .anuncio-petz{
-        width:80%;
+    .anuncio-petz {
+        width: 80%;
         gap: 15px;
     }
 
-    .botao-principal{
+    .botao-principal {
         font-size: 15px;
         padding: 13px 30px;
     }
+
     /* seção secundária */
 
     .tipos-perfil h2 {
         width: 85%;
     }
-    .cards-container{
+
+    .cards-container {
         margin-top: 30px;
         gap: 20px;
     }
 
-    .card-de-perfil{
-padding: 20px;
+    .card-de-perfil {
+        padding: 20px;
 
-align-items: center;
-
-    }
-    .conteudo-card{
-        width:100%;
+        align-items: center;
 
     }
-.link-card{
-    font-size: 16px;
-    
-}
-/* seção de valores */
-.sobre-os-valores{
-    width:95%;
 
-}
-.pilar{
-    margin: 16px;
-}
+    .conteudo-card {
+        width: 100%;
 
-/* rodapé */
-.conteudo-rodape{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    }
 
+    .link-card {
+        font-size: 16px;
+
+    }
+
+    /* seção de valores */
+    .sobre-os-valores {
+        width: 95%;
+
+    }
+
+    .pilar {
+        margin: 16px;
+    }
+
+    /* rodapé */
+    .conteudo-rodape {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
 }
-}
-
-
