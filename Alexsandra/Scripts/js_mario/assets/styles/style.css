@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+
+.game-board{
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(#87ceeb, #e0f6ff);
+  border-bottom: 10px solid #23a023;
+}
+
+.mario{
+  bottom: 0;
+  width: 150px;
+  position: absolute;
+}
+
+.mario.jump{
+  animation: jump 500ms infinite ease-out;
+}
+
+.pipe{
+  bottom: 0;
+  width: 80px;
+  right: -80px;
+  position: absolute;
+  animation: pipe-animation 2s infinite linear;
+}
+
+.cloud{
+  top: 10%;
+  width: 500px;
+  right: -500px;
+  position: absolute;
+  animation: nuvens 10s infinite linear;
+}
+
+@keyframes pipe-animation{
+  from{
+    right: -500px;
+  }
+
+  to{
+    right: 100%;
+  }
+}
+
+@keyframes jump{
+  0%{
+    bottom: 0;
+  }
+
+  40%{
+    bottom: 200px;
+  }
+
+  50%{
+    bottom: 200px;
+  }
+
+  60%{
+    bottom: 200px;
+  }
+
+  100%{
+    bottom: 0;
+  }
+}
+
+@keyframes nuvens{
+  from{
+    right: -500px;
+  }
+
+  to{
+    right: 100%;
+  }
+}
+
+.score-board{
+  display: none;
+
+  width: 50vw;
+  height: 30vh;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #fbfbfb;
+  box-shadow: 0px 0px 20vw 100vw #0f0f0f83;
+
+  top: 30vh;
+  left: 25vw;
+  right: 25vw;
+  position: fixed;
+
+  gap: 40px;
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p{
+  font-size: 20px;
+}
+
+.game-over{
+  font-size: 40px;
+}
+
+.pontuacao{
+  font-size: 60px;
+  color: rgb(255, 51, 0);
+}
+
+#reset{
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: rgb(15, 180, 0);
+}
